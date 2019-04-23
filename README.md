@@ -5,7 +5,7 @@
 如何DIY和维护订阅地址。
 下载一个订阅样本，txt打开获得一堆乱码。
 通过base64解码，可以发现是一条条SSR链接。
-
+base64编码：https://tool.oschina.net/encrypt?type=3
 这时候就明白了。
 一条条SSR链接排列好每一行，最后通过base64编码，存放为txt。
 放到vps上做成直链提供下载，或用github分享即可。
